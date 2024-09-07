@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 
 function Item({ data }) {
-  console.log();
   return (
     <div className="min-h-screen px-10">
       <Link href={"/"}>
